@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    username: <%= @user.username %>
+  </li>
+  <li>
+    email: <%= @user.email %>
+  </li>
+  <li>
+    password: <%= @user.password %>
+  </li>
+
+  <li> <%= link_to "Edit", edit_user_path(@user) %> </li>
+  <li><%= link_to "Index", "/users" %></li>
+</ul>
